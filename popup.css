@@ -1,0 +1,63 @@
+body {
+  width: 340px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 14px;
+  margin: 0;
+}
+.header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.logo { font-size: 22px; }
+h1 { font-size: 16px; margin: 0; }
+
+#analyzeBtn {
+  width: 100%;
+  padding: 10px;
+  background: #22c55e;
+  color: #0f172a;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+#analyzeBtn:hover { background: #16a34a; }
+#analyzeBtn:disabled { background: #475569; cursor: not-allowed; }
+
+.status { margin-top: 12px; font-size: 13px; color: #94a3b8; text-align: center; }
+
+.result { margin-top: 14px; }
+.risk-score {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.risk-low { background: #14532d; color: #86efac; }
+.risk-mid { background: #713f12; color: #fde68a; }
+.risk-high { background: #7f1d1d; color: #fca5a5; }
+
+.summary { font-size: 13px; line-height: 1.5; white-space: pre-wrap; }
+
+.error {
+  margin-top: 12px;
+  background: #7f1d1d;
+  color: #fecaca;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.hidden { display: none; }
+
+#settingsLink {
+  display: block;
+  margin-top: 14px;
+  text-align: center;
+  font-size: 12px;
+  color: #60a5fa;
+  text-decoration: none;
+}
+#settingsLink:hover { text-decoration: underline; }
