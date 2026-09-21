@@ -62,4 +62,4 @@ Extension-capable mobile browsers (e.g. Kiwi Browser on Android) can load this e
 - Google Gemini API (`gemini-2.5-flash`)
 
 ## License
-MIT
+Appache 2.0
